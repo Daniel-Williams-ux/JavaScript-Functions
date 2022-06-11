@@ -1,5 +1,5 @@
-function addTwo(num) {
-  return num + 2;
+function addS(str) {
+  return str + 's';
 }
-console.log(typeof addTwo); // should log: 'function'
-console.log(addTwo(10)); // should log: 12
+console.log(typeof addS); // should log: 'function'
+console.log(addS('cat')); // should log: 'cats'
